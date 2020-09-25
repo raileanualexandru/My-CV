@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(240, 233, 233) ;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.3em;
+    color:rgb(48, 22, 6);
+}
+.container{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    
+}
+.information{
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.information:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+.photo{
+    margin-left:10px;
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.photo:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+img{
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px rgb(6, 54, 70);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
+}
+ul{
+    list-style-type: none;
+}
+
+.experience{
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.experience:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+.education{
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.education:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+.skills{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.skills:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+.it{
+align-self: flex-end;
+}
+.additional{
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.additional:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  li{
+      margin-bottom: 0.6em;
+  }
+
+  
